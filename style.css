@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.container {
+  width: 144rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.header {
+  height: 36.3rem;
+  width: 100%;
+  background-image: url(/images/bg-header-desktop.png);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1.6rem;
+}
+.header h1 {
+  font-size: 4.6rem;
+  font-weight: 400;
+  letter-spacing: -0.075rem;
+}
+.header svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 73rem;
+  height: 6rem;
+  margin: 0 auto;
+  margin-bottom: 4.8rem;
+}
+.main-header p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.015rem;
+  color: #9eabb2;
+}
+.btns {
+  width: 47rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.btn {
+  width: 22.7rem;
+  height: 5.6rem;
+  padding: 1.3rem 1.6rem;
+  border-radius: 20rem;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.05rem;
+  color: #fff;
+  cursor: pointer;
+}
+.ios {
+  background-color: #26bba4;
+}
+.mac {
+  background-color: #6174ff;
+}
