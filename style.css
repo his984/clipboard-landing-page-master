@@ -96,14 +96,19 @@ body {
   justify-content: center;
 }
 .sec--2 h2,
-.sec--4 h2 {
+.sec--4 h2,
+.sec--6 h2,
+.sec--9 h2 {
   font-size: 3.6rem;
   letter-spacing: 0.059rem;
   color: #4c545c;
   margin-bottom: 1.9rem;
+  text-align: center;
 }
+.sec--2 p,
 .sec--4 p,
-.sec--2 p {
+.sec--6 p,
+.sec--9 p {
   text-align: center;
   font-size: 1.8rem;
   line-height: 3rem;
@@ -132,12 +137,14 @@ body {
   width: 35rem;
   height: 9.8rem;
 }
+.sec--7-item h3,
 .item h3 {
   font-size: 2.4rem;
   color: #4c545c;
   letter-spacing: 0.039rem;
   text-align: start;
 }
+.sec--7-item,
 .sec--3 p {
   font-size: 1.6rem;
   color: #9eabb2;
@@ -160,4 +167,50 @@ body {
   display: block;
   margin: 0 auto;
   margin-bottom: 8.5rem;
+}
+/* SEC 06 */
+.sec--6 {
+  width: 73rem;
+  height: 9.4rem;
+  margin: 0 auto;
+  margin-bottom: 7.2rem;
+}
+/* SEC 07 */
+.sec--7 {
+  width: 111rem;
+  height: 21.6rem;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec--7-item {
+  width: 35rem;
+  height: 18.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 1.6rem;
+}
+.sec--7-item p {
+  text-align: center !important;
+}
+/* SEC 08 */
+.sec--8 {
+  width: 111rem;
+  height: 7.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 16.51rem;
+}
+/* SEC 09 */
+.sec--9 h2 {
+  margin-bottom: 3rem;
+}
+.sec--9 p {
+  margin-bottom: 5.2rem;
 }
