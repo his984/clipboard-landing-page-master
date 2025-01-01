@@ -95,12 +95,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-.sec--2 h2 {
+.sec--2 h2,
+.sec--4 h2 {
   font-size: 3.6rem;
   letter-spacing: 0.059rem;
   color: #4c545c;
   margin-bottom: 1.9rem;
 }
+.sec--4 p,
 .sec--2 p {
   text-align: center;
   font-size: 1.8rem;
@@ -141,4 +143,21 @@ body {
   color: #9eabb2;
   line-height: 3rem;
   text-align: start;
+}
+/* SEC 04 */
+.sec--4 {
+  width: 73rem;
+  height: 12.4rem;
+  margin: 0 auto;
+  margin-top: 15rem;
+  margin-bottom: 16.1rem;
+  text-align: center;
+}
+/* SEC 05 */
+.devices {
+  width: 81.2rem;
+  height: 47.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8.5rem;
 }
