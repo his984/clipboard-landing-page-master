@@ -208,9 +208,51 @@ body {
   margin-bottom: 16.51rem;
 }
 /* SEC 09 */
+.sec--9 {
+  margin-bottom: 15rem;
+}
 .sec--9 h2 {
   margin-bottom: 3rem;
 }
 .sec--9 p {
   margin-bottom: 5.2rem;
+}
+/* FOOTER */
+.footer {
+  width: 144rem;
+  height: 15rem;
+  background-color: #f3f6f8;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-footer {
+  width: 82.5rem;
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* column-gap: 13.5rem; */
+  /* background-color: #6174ff; */
+}
+.footer-icons {
+  width: 12rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(2, 16rem) 25.5rem;
+  grid-template-rows: repeat(2, 3rem);
+}
+span {
+  color: #4c545c;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.014rem;
+  text-align: start;
 }
